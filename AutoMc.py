@@ -2,7 +2,7 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
 from selenium.common.exceptions import NoSuchElementException
-import time
+
 
 def click_next(): # helper function to click the next button on the webpage
     driver.find_element_by_id("NextButton").click()
